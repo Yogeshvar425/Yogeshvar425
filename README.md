@@ -99,21 +99,53 @@ Computer Science undergraduate with hands-on experience building and optimizing 
 
 ### <img src="https://api.iconify.design/octicon/tools-16.svg?color=%2338bdf8" width="20" height="20" /> Technical Skills &amp; Toolchain
 
-<div align="center">
+#### ⚡ Edge AI, Computer Vision &amp; Acceleration
+<p>
+  <img src="https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Jetson" />
+  <img src="https://img.shields.io/badge/TensorRT_(FP16)-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT" />
+  <img src="https://img.shields.io/badge/YOLOv8n-00FFFF?style=flat-square&logo=ultralytics&logoColor=black" alt="YOLOv8" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/llama.cpp_(Local_VLM/LLM)-181717?style=flat-square&logo=meta&logoColor=white" alt="llama.cpp" />
+  <img src="https://img.shields.io/badge/ByteTrack-1e293b?style=flat-square&logoColor=white" alt="ByteTrack" />
+  <img src="https://img.shields.io/badge/FaceNet512-1e293b?style=flat-square&logoColor=white" alt="FaceNet512" />
+</p>
 
-  <p><b>Core Languages</b></p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css&perline=7" alt="Languages" />
-  </a>
+#### 🧠 Machine Learning &amp; NLP
+<p>
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/TF--IDF_Bigrams-1e293b?style=flat-square&logoColor=white" alt="TF-IDF" />
+  <img src="https://img.shields.io/badge/SVM_%26_Logistic_Regression-1e293b?style=flat-square&logoColor=white" alt="Models" />
+  <img src="https://img.shields.io/badge/Stratified_Cross_Validation-1e293b?style=flat-square&logoColor=white" alt="Validation" />
+</p>
 
-  <br /><br />
+#### 🚀 Backend, APIs &amp; Microservices
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/REST_APIs-0ea5e9?style=flat-square&logo=postman&logoColor=white" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/YouTube_Data_API-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube Data API" />
+</p>
 
-  <p><b>AI, Vision, Acceleration &amp; Systems</b></p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,opencv,fastapi,flask,linux,bash,git,github,vscode&perline=9" alt="Tools and Frameworks" />
-  </a>
+#### 💻 Programming Languages &amp; Databases
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/SQL_(DBMS)-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5_%2F_Canvas-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+</p>
 
-</div>
+#### 🛠️ Platforms &amp; Developer Tooling
+<p>
+  <img src="https://img.shields.io/badge/Linux_(Ubuntu)-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Bash_Scripting-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+</p>
 
 <br />
 

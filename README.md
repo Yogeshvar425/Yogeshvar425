@@ -18,21 +18,100 @@
 
 ---
 
-## About
-
-I am **Yogeshvar**, a B.Tech Computer Science Engineering student at **Dayananda Sagar University**, graduating in **2027**.
-
-I build and ship production-grade systems across edge AI, computer vision, NLP pipelines, and backend microservices. My work prioritizes **real hardware constraints, measurable performance benchmarks, and software that works outside a demo environment**.
+I am **Yogeshvar**, a B.Tech Computer Science Engineering student at **Dayananda Sagar University**, graduating in **2027**. I build and ship production-grade systems across edge AI, computer vision, NLP, and backend services — prioritizing **real hardware constraints, measurable benchmarks, and software that works beyond demos**.
 
 Currently open to **2026/2027 Software Engineering & AI/ML internships**.
 
 ---
 
-## Technical focus
+## What I work on
 
-| Edge AI and inference | Computer vision | NLP and classical ML |
-|---|---|---|
-| TensorRT optimization, FP16 quantization, constrained-memory deployment on NVIDIA Jetson, and local-first LLM/VLM inference | Real-time detection and tracking pipelines (YOLOv8, ByteTrack), facial recognition (FaceNet512), and multi-stream processing | TF-IDF feature engineering, SVM and Logistic Regression classifiers, stratified evaluation, and high-speed REST inference |
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>Edge AI &amp; Inference</h4>
+      <p>TensorRT optimization, FP16 quantization, constrained-memory deployment on NVIDIA Jetson, and local-first LLM/VLM inference via llama.cpp.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>Computer Vision</h4>
+      <p>Real-time detection and tracking pipelines (YOLOv8, ByteTrack), facial recognition (FaceNet512), and multi-stream edge processing at production frame rates.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>NLP &amp; Classical ML</h4>
+      <p>TF-IDF feature engineering, SVM and Logistic Regression classifiers, stratified evaluation pipelines, and high-throughput REST inference microservices.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Projects
+
+### Sentinel Surveillance — `shipped`
+
+> Real-time edge-AI surveillance for NVIDIA Jetson: detect, track, identify, and understand locally.
+
+<a href="https://github.com/Yogeshvar425/Sentinel-Surveillance"><img src="https://img.shields.io/badge/View_repository-1e293b?style=flat-square&logo=github&logoColor=white" alt="Repo" /></a>
+
+**Pipeline:** `RTSP camera → detection + tracking → face recognition → local VLM analysis → dashboard + alerts`
+
+- Modular real-time vision system on **NVIDIA Jetson** running **YOLOv8n + ByteTrack + FaceNet512** at **28 FPS**
+- Models quantized to **FP16 via TensorRT** — inference latency reduced by **~65%** (120 ms → 35–45 ms)
+- On-device VLM via `llama.cpp` for structured JSON scene intelligence, **zero cloud dependency**
+- Flask live console for video feeds, event telemetry, and hardware health
+
+<details>
+<summary>Engineering signals</summary>
+<br />
+
+| Metric | Value |
+| :--- | :--- |
+| Sustained frame rate | 28 FPS |
+| Latency reduction (FP16) | ~65% (120 ms → 35–45 ms) |
+| Cloud dependency | None — fully local VLM |
+
+`Python` · `NVIDIA Jetson` · `TensorRT` · `YOLOv8n` · `ByteTrack` · `FaceNet512` · `llama.cpp` · `Flask`
+
+</details>
+
+---
+
+### TrueSentiment — `shipped`
+
+> End-to-end NLP sentiment analysis with automated data collection and high-speed REST inference.
+
+<a href="https://github.com/Yogeshvar425/TrueSentiment"><img src="https://img.shields.io/badge/View_repository-1e293b?style=flat-square&logo=github&logoColor=white" alt="Repo" /></a>
+
+**Pipeline:** `YouTube Data API → spam filtering → preprocessing → model training → FastAPI service → live dashboard`
+
+- Automated comment collection with custom spam/bot filtration and text normalization
+- Logistic Regression and SVM classifiers with TF-IDF bigram features — **~76% accuracy** on noisy real-world data (5-fold stratified CV)
+- Asynchronous **FastAPI REST microservice** with sub-**50 ms** inference latency
+- HTML5 Canvas dashboard for live request throughput visualization
+
+<details>
+<summary>Engineering signals</summary>
+<br />
+
+| Metric | Value |
+| :--- | :--- |
+| Accuracy (noisy data) | ~76% |
+| API response latency | <50 ms |
+| Validation method | 5-fold stratified cross-validation |
+
+`Python` · `Scikit-learn` · `TF-IDF` · `SVM` · `FastAPI` · `REST API` · `YouTube Data API` · `HTML5 Canvas`
+
+</details>
+
+---
+
+### Aria — `active build`
+
+> Local-first agentic AI: voice interaction, vision-language understanding, and autonomous tool-use — running entirely on edge hardware.
+
+A fully local autonomous agent combining multimodal perception with agentic orchestration and function calling. Built for edge-native execution with zero cloud dependency.
+
+`Python` · `llama.cpp` · `NVIDIA Jetson` · `Agentic workflows` · `Function calling` · `Computer vision` · `Local LLM/VLM`
 
 ---
 
@@ -48,75 +127,11 @@ Currently open to **2026/2027 Software Engineering & AI/ML internships**.
 
 ---
 
-## Systems — Featured
-
-### 01 — [SENTINEL SURVEILLANCE](https://github.com/Yogeshvar425/Sentinel-Surveillance) `SHIPPED`
-
-**Real-time edge-AI surveillance for NVIDIA Jetson: detect, track, identify, and understand locally.**
-
-```
-RTSP camera → detection and tracking → face recognition → local VLM analysis → dashboard and alerts
-```
-
-Shipped prototype:
-
-- Modular real-time computer vision pipeline on **NVIDIA Jetson** hardware running **YOLOv8n detection + ByteTrack tracking + FaceNet512 recognition** concurrently at **28 FPS**
-- Deep learning models quantized to **FP16 via TensorRT**, reducing inference latency by **~65%** (120 ms → 35–45 ms) to fit within embedded hardware thermal and power constraints
-- On-device Vision-Language Model inference via `llama.cpp` generating structured JSON scene descriptions with **zero cloud dependency**
-- Flask-based live monitoring console for real-time video feeds, event telemetry, and hardware health metrics
-
-**Verified engineering signals:** `28 FPS sustained` · `~65% latency reduction (FP16)` · `zero-cloud local VLM`
-
-`Python` · `NVIDIA Jetson` · `TensorRT` · `YOLOv8n` · `ByteTrack` · `FaceNet512` · `llama.cpp` · `Flask`
-
----
-
-### 02 — [TRUE SENTIMENT](https://github.com/Yogeshvar425/TrueSentiment) `SHIPPED`
-
-**End-to-end NLP sentiment analysis pipeline with automated data collection and high-speed REST inference.**
-
-```
-YouTube Data API ingestion → spam filtering → text preprocessing → model training → FastAPI service → live dashboard
-```
-
-Shipped service:
-
-- Automated YouTube comment collection pipeline with custom spam/bot filtration and text normalization
-- Trained Logistic Regression and SVM classifiers using TF-IDF bigram features, validated via 5-fold stratified cross-validation achieving **~76% accuracy** on noisy real-world data
-- Deployed as an asynchronous **FastAPI REST microservice** with sub-**50 ms** inference response latency
-- Lightweight JavaScript/HTML5 Canvas dashboard for real-time request queue throughput monitoring
-
-**Verified engineering signals:** `~76% accuracy (noisy data)` · `<50 ms API response` · `5-fold stratified CV`
-
-`Python` · `Scikit-learn` · `TF-IDF` · `SVM` · `FastAPI` · `REST API` · `YouTube Data API` · `HTML5 Canvas`
-
----
-
-### 03 — ARIA `ACTIVE BUILD`
-
-**Local-first agentic AI system with on-device multimodal intelligence, autonomous tool-use, and edge-native execution.**
-
-A fully local autonomous agent that combines voice interaction, vision-language understanding, and agentic orchestration — running entirely on edge hardware with zero cloud dependency.
-
-Building with:
-
-`Python` · `llama.cpp` · `NVIDIA Jetson` · `Agentic workflows` · `Function calling` · `Computer vision` · `Local LLM/VLM inference`
-
----
-
 ## Interests
 
 `Local-first AI` · `Edge inference` · `Computer vision` · `Systems engineering` · `NLP & language models` · `Production software`
 
 ---
-
-<div align="center">
-
-> `build_status: curious / shipping / learning`
-
-</div>
-
-<br />
 
 <div align="center">
   <img src="assets/footer.svg" width="100%" alt="—" />

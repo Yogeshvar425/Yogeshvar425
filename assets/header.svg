@@ -1,84 +1,57 @@
-<svg fill="none" viewBox="0 0 850 240" width="850" height="240" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 850 180" width="850" height="180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0e17"/>
-      <stop offset="100%" stop-color="#141b2d"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
-    <linearGradient id="accentLine" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#0ea5e9"/>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
-    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.6" fill="#334155" fill-opacity="0.4"/>
-    </pattern>
+    <linearGradient id="fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
   <style>
-    .boot-label { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #0ea5e9; font-weight: 700; letter-spacing: 2px; }
-    .boot-line { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #64748b; }
-    .boot-val { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #94a3b8; }
-    .name { font-family: 'Segoe UI', -apple-system, sans-serif; font-weight: 800; font-size: 42px; fill: #f1f5f9; letter-spacing: 1px; }
-    .role { font-family: 'Courier New', monospace; font-size: 13px; fill: #38bdf8; font-weight: 600; letter-spacing: 1px; }
-    .status-dot { fill: #22c55e; }
-    .status-text { font-family: 'Courier New', monospace; font-size: 11px; fill: #94a3b8; }
-    .sys-header { font-family: 'Courier New', monospace; font-size: 10px; fill: #475569; font-weight: 700; letter-spacing: 2px; }
-    .sys-name { font-family: 'Courier New', monospace; font-size: 11px; fill: #e2e8f0; font-weight: 600; }
-    .sys-status { font-family: 'Courier New', monospace; font-size: 10px; font-weight: 700; }
-    .shipped { fill: #22c55e; }
-    .active { fill: #f59e0b; }
+    .name { font-family: 'Segoe UI', -apple-system, sans-serif; font-weight: 800; font-size: 52px; fill: #f1f5f9; letter-spacing: -1px; }
+    .role { font-family: 'Segoe UI', sans-serif; font-weight: 500; font-size: 16px; fill: #64748b; letter-spacing: 0.5px; }
+    .highlight { fill: #38bdf8; }
+    .tag { font-family: 'Segoe UI', sans-serif; font-size: 11.5px; fill: #94a3b8; }
+    .dot { fill: #22c55e; }
+    .dot-amber { fill: #f59e0b; }
   </style>
 
   <!-- Background -->
-  <rect width="850" height="240" rx="12" fill="url(#bgGrad)"/>
-  <rect width="850" height="240" rx="12" fill="url(#dots)"/>
-  <rect x="0" y="0" width="850" height="240" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <rect width="850" height="180" rx="12" fill="url(#bg)"/>
+  <rect width="850" height="180" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
 
-  <!-- Accent Line (Left) -->
-  <rect x="24" y="20" width="3" height="200" rx="1.5" fill="url(#accentLine)"/>
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="180" rx="0" fill="url(#accent)"/>
 
-  <!-- Boot Sequence -->
-  <text x="40" y="38" class="boot-label">PROFILE_SYSTEM / INIT</text>
-  <text x="40" y="56" class="boot-line">&gt; identity: <tspan class="boot-val">yogeshvar425</tspan></text>
-  <text x="40" y="72" class="boot-line">&gt; loading: <tspan class="boot-val">software · intelligence · edge-systems</tspan></text>
-  <text x="40" y="88" class="boot-line">&gt; status: <tspan class="boot-val">building &amp; shipping</tspan></text>
+  <!-- Subtle horizontal glow band -->
+  <rect x="4" y="60" width="400" height="50" rx="0" fill="url(#fade)"/>
 
   <!-- Name -->
-  <text x="40" y="138" class="name">YOGESHVAR</text>
+  <text x="36" y="100" class="name">Yogeshvar</text>
 
-  <!-- Role -->
-  <text x="40" y="162" class="role">SOFTWARE × AI/ML ENGINEER</text>
+  <!-- Role line -->
+  <text x="38" y="128" class="role">Software <tspan class="highlight">×</tspan> AI/ML Engineer</text>
 
-  <!-- Status Badges -->
-  <circle cx="46" cy="192" r="4" class="status-dot"/>
-  <text x="58" y="196" class="status-text">CSE · DSU '27</text>
-  <circle cx="176" cy="192" r="4" fill="#f59e0b"/>
-  <text x="188" y="196" class="status-text">OPEN TO INTERNSHIPS</text>
+  <!-- Status row -->
+  <circle cx="44" cy="156" r="4" class="dot"/>
+  <text x="56" y="160" class="tag">CSE · DSU '27 · Bengaluru</text>
+  <circle cx="244" cy="156" r="4" class="dot-amber"/>
+  <text x="256" y="160" class="tag">Open to internships</text>
 
-  <!-- Featured Systems Panel (Right Side) -->
-  <rect x="540" y="24" width="280" height="192" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-  <text x="560" y="48" class="sys-header">FEATURED SYSTEMS</text>
+  <!-- Right-side vertical metrics -->
+  <text x="810" y="48" text-anchor="end" class="tag" style="font-size:10px; fill:#475569;">SYSTEMS</text>
+  <text x="810" y="72" text-anchor="end" style="font-family:'Segoe UI',sans-serif; font-size:32px; font-weight:800; fill:#e2e8f0;">3</text>
+  <text x="810" y="92" text-anchor="end" class="tag" style="font-size:10px;">2 shipped · 1 active</text>
 
-  <!-- Divider line -->
-  <line x1="560" y1="56" x2="800" y2="56" stroke="#1e293b" stroke-width="1"/>
+  <line x1="740" y1="108" x2="810" y2="108" stroke="#1e293b" stroke-width="1"/>
 
-  <!-- System 01 -->
-  <text x="560" y="80" class="sys-name">01  SENTINEL</text>
-  <text x="780" y="80" text-anchor="end" class="sys-status shipped">SHIPPED</text>
-  <text x="576" y="95" class="boot-line" style="font-size:10px">edge-cv · jetson · tensorrt · 28fps</text>
-
-  <!-- System 02 -->
-  <text x="560" y="120" class="sys-name">02  TRUE SENTIMENT</text>
-  <text x="780" y="120" text-anchor="end" class="sys-status shipped">SHIPPED</text>
-  <text x="576" y="135" class="boot-line" style="font-size:10px">nlp · fastapi · sklearn · &lt;50ms</text>
-
-  <!-- System 03 -->
-  <text x="560" y="160" class="sys-name">03  ARIA</text>
-  <text x="780" y="160" text-anchor="end" class="sys-status active">ACTIVE BUILD</text>
-  <text x="576" y="175" class="boot-line" style="font-size:10px">local-first ai · agentic · edge vlm</text>
-
-  <!-- Separator -->
-  <line x1="560" y1="190" x2="800" y2="190" stroke="#1e293b" stroke-width="1"/>
-
-  <!-- Footer note -->
-  <text x="560" y="208" class="boot-line" style="font-size:10px">&gt; build_mode: <tspan class="boot-val">production-first</tspan></text>
+  <text x="810" y="128" text-anchor="end" class="tag" style="font-size:10px; fill:#475569;">FOCUS</text>
+  <text x="810" y="150" text-anchor="end" class="tag" style="font-size:11px; fill:#94a3b8;">Edge AI · Vision · NLP</text>
 </svg>

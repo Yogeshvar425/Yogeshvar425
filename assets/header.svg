@@ -62,19 +62,23 @@
   <line x1="560" y1="56" x2="800" y2="56" stroke="#1e293b" stroke-width="1"/>
 
   <!-- System 01 -->
-  <text x="560" y="80" class="sys-name">01  SENTINEL SURVEILLANCE</text>
+  <text x="560" y="80" class="sys-name">01  SENTINEL</text>
   <text x="780" y="80" text-anchor="end" class="sys-status shipped">SHIPPED</text>
   <text x="576" y="95" class="boot-line" style="font-size:10px">edge-cv · jetson · tensorrt · 28fps</text>
 
   <!-- System 02 -->
-  <text x="560" y="125" class="sys-name">02  TRUE SENTIMENT</text>
-  <text x="780" y="125" text-anchor="end" class="sys-status shipped">SHIPPED</text>
-  <text x="576" y="140" class="boot-line" style="font-size:10px">nlp · fastapi · sklearn · &lt;50ms</text>
+  <text x="560" y="120" class="sys-name">02  TRUE SENTIMENT</text>
+  <text x="780" y="120" text-anchor="end" class="sys-status shipped">SHIPPED</text>
+  <text x="576" y="135" class="boot-line" style="font-size:10px">nlp · fastapi · sklearn · &lt;50ms</text>
+
+  <!-- System 03 -->
+  <text x="560" y="160" class="sys-name">03  ARIA</text>
+  <text x="780" y="160" text-anchor="end" class="sys-status active">ACTIVE BUILD</text>
+  <text x="576" y="175" class="boot-line" style="font-size:10px">local-first ai · agentic · edge vlm</text>
 
   <!-- Separator -->
-  <line x1="560" y1="158" x2="800" y2="158" stroke="#1e293b" stroke-width="1"/>
+  <line x1="560" y1="190" x2="800" y2="190" stroke="#1e293b" stroke-width="1"/>
 
   <!-- Footer note -->
-  <text x="560" y="180" class="boot-line" style="font-size:10px">bengaluru · dayananda sagar university</text>
-  <text x="560" y="198" class="boot-line" style="font-size:10px">&gt; build_mode: <tspan class="boot-val">production-first</tspan></text>
+  <text x="560" y="208" class="boot-line" style="font-size:10px">&gt; build_mode: <tspan class="boot-val">production-first</tspan></text>
 </svg>

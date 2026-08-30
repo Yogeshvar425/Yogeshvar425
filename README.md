@@ -18,7 +18,7 @@
 
 ---
 
-### `$ whoami`
+## About
 
 I am **Yogeshvar**, a B.Tech Computer Science Engineering student at **Dayananda Sagar University**, graduating in **2027**.
 
@@ -28,7 +28,15 @@ Currently open to **2026/2027 Software Engineering & AI/ML internships**.
 
 ---
 
-### `$ stack --summary`
+## Technical focus
+
+| Edge AI and inference | Computer vision | NLP and classical ML |
+|---|---|---|
+| TensorRT optimization, FP16 quantization, constrained-memory deployment on NVIDIA Jetson, and local-first LLM/VLM inference | Real-time detection and tracking pipelines (YOLOv8, ByteTrack), facial recognition (FaceNet512), and multi-stream processing | TF-IDF feature engineering, SVM and Logistic Regression classifiers, stratified evaluation, and high-speed REST inference |
+
+---
+
+## Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -40,9 +48,9 @@ Currently open to **2026/2027 Software Engineering & AI/ML internships**.
 
 ---
 
-### `$ systems --featured`
+## Systems — Featured
 
-#### 01 — [SENTINEL SURVEILLANCE](https://github.com/Yogeshvar425/Sentinel-Surveillance) `SHIPPED`
+### 01 — [SENTINEL SURVEILLANCE](https://github.com/Yogeshvar425/Sentinel-Surveillance) `SHIPPED`
 
 **Real-time edge-AI surveillance for NVIDIA Jetson: detect, track, identify, and understand locally.**
 
@@ -50,7 +58,7 @@ Currently open to **2026/2027 Software Engineering & AI/ML internships**.
 RTSP camera → detection and tracking → face recognition → local VLM analysis → dashboard and alerts
 ```
 
-**Shipped prototype:**
+Shipped prototype:
 
 - Modular real-time computer vision pipeline on **NVIDIA Jetson** hardware running **YOLOv8n detection + ByteTrack tracking + FaceNet512 recognition** concurrently at **28 FPS**
 - Deep learning models quantized to **FP16 via TensorRT**, reducing inference latency by **~65%** (120 ms → 35–45 ms) to fit within embedded hardware thermal and power constraints
@@ -63,7 +71,7 @@ RTSP camera → detection and tracking → face recognition → local VLM analys
 
 ---
 
-#### 02 — [TRUE SENTIMENT](https://github.com/Yogeshvar425/TrueSentiment) `SHIPPED`
+### 02 — [TRUE SENTIMENT](https://github.com/Yogeshvar425/TrueSentiment) `SHIPPED`
 
 **End-to-end NLP sentiment analysis pipeline with automated data collection and high-speed REST inference.**
 
@@ -71,7 +79,7 @@ RTSP camera → detection and tracking → face recognition → local VLM analys
 YouTube Data API ingestion → spam filtering → text preprocessing → model training → FastAPI service → live dashboard
 ```
 
-**Shipped service:**
+Shipped service:
 
 - Automated YouTube comment collection pipeline with custom spam/bot filtration and text normalization
 - Trained Logistic Regression and SVM classifiers using TF-IDF bigram features, validated via 5-fold stratified cross-validation achieving **~76% accuracy** on noisy real-world data
@@ -84,44 +92,21 @@ YouTube Data API ingestion → spam filtering → text preprocessing → model t
 
 ---
 
-### `$ certifications --verified`
+### 03 — ARIA `ACTIVE BUILD`
 
-- **Intro to Transformer-Based NLP** — NVIDIA
-- **Networking Fundamentals** — Infosys Springboard
+**Local-first agentic AI system with on-device multimodal intelligence, autonomous tool-use, and edge-native execution.**
 
----
+A fully local autonomous agent that combines voice interaction, vision-language understanding, and agentic orchestration — running entirely on edge hardware with zero cloud dependency.
 
-### `$ education`
+Building with:
 
-**Bachelor of Technology in Computer Science and Engineering**
-Dayananda Sagar University, Bengaluru — Expected May 2027 · CGPA: 7.84 / 10
-
-**Relevant coursework:** Data Structures & Algorithms · OOP (Java) · DBMS · Operating Systems · Computer Networks · Discrete Mathematics
+`Python` · `llama.cpp` · `NVIDIA Jetson` · `Agentic workflows` · `Function calling` · `Computer vision` · `Local LLM/VLM inference`
 
 ---
 
-### `$ metrics`
+## Interests
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=Yogeshvar425&show_icons=true&theme=dark&bg_color=0a0e17&title_color=38bdf8&text_color=94a3b8&icon_color=0ea5e9&border_color=1e293b&count_private=true" alt="GitHub Stats" />
-      </td>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yogeshvar425&layout=compact&theme=dark&bg_color=0a0e17&title_color=38bdf8&text_color=94a3b8&border_color=1e293b" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-
-  <img src="https://streak-stats.demolab.com/?user=Yogeshvar425&theme=dark&background=0A0E17&border=1E293B&stroke=38BDF8&ring=0EA5E9&fire=0EA5E9&currStreakLabel=38BDF8" alt="GitHub Streak" />
-</div>
-
----
-
-### `$ interests`
-
-`Local-first AI` · `Edge inference` · `Intelligent systems` · `Computer vision` · `Systems engineering` · `Production software`
+`Local-first AI` · `Edge inference` · `Computer vision` · `Systems engineering` · `NLP & language models` · `Production software`
 
 ---
 

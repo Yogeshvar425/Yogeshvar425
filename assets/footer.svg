@@ -1,13 +1,13 @@
-<svg fill="none" viewBox="0 0 800 60" width="800" height="60" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 50" width="800" height="50" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="footerLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#818cf8" stop-opacity="1"/>
-      <stop offset="75%" stop-color="#c084fc" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#94a3b8" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="50" y="29" width="700" height="2" rx="1" fill="url(#footerLineGrad)"/>
-  <circle cx="400" cy="30" r="5" fill="#818cf8"/>
+  <rect x="50" y="24" width="700" height="1.5" rx="1" fill="url(#footerLineGrad)"/>
+  <circle cx="400" cy="25" r="3.5" fill="#38bdf8"/>
 </svg>

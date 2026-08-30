@@ -1,11 +1,11 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&theme=tokyonight&height=220&section=header&text=V%20S%20Yogeshvar&fontSize=48&animation=fadeIn&fontAlignY=38&desc=Systems%20%26%20Software%20Developer%20%E2%80%A2%20C%20%2F%20C%2B%2B%20%E2%80%A2%20DSA%20Enthusiast&descFontSize=19&descAlignY=60" width="100%" alt="Header Banner" />
+  <img src="assets/header.svg" width="100%" alt="V S Yogeshvar - Systems & AI Developer" />
 
-  <br />
+  <br /><br />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Low-Level+%26+Systems+Software+Engineering;Data+Structures+%26+Algorithms+Problem+Solver;Modern+C+%2F+C%2B%2B+Architecture;Clean+Code+%26+Performance+Optimization" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Agentic+AI+%26+Autonomous+Systems;Computer+Vision+%26+Edge+Surveillance+(YOLOv8);Low-Level+Systems+Engineering+(C+%2F+C%2B%2B);Data+Structures+%26+Algorithms+Problem+Solver" alt="Typing SVG" />
   </a>
 
   <br /><br />
@@ -27,31 +27,32 @@
 
 ```yaml
 identity:
-  name: V S Yogeshvar
-  discipline: Systems Programming & Software Development
-  core_stack: [C, C++, Data Structures, Algorithms, Linux]
+  name: Yogeshvar V S
+  education: CSE Undergraduate @ Dayananda Sagar University (DSU '27)
+  location: Bengaluru, Karnataka, India
+  primary_focus: [Agentic AI, Computer Vision, Edge Surveillance (YOLOv8), Systems & C/C++]
 
 philosophy:
-  focus: Deep understanding of memory layout, hardware abstraction, and computational efficiency
-  mindset: "Write robust, scalable, and memory-safe software with clean architectural patterns."
+  core: Bridging intelligent agentic vision systems with efficient low-level software architectures
+  mindset: "Build fast, scalable, and memory-conscious software from hardware up to modern AI."
 ```
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><img src="https://api.iconify.design/octicon/terminal-16.svg?color=%2338bdf8" width="18" height="18" /> Systems & Core Engineering</h4>
+      <h4><img src="https://api.iconify.design/octicon/cpu-16.svg?color=%2338bdf8" width="18" height="18" /> AI, Vision &amp; Edge Systems</h4>
       <ul>
-        <li>Building efficient solutions in <b>C & C++</b> focusing on memory management, pointers, and performance.</li>
-        <li>Exploring operating system internals, POSIX standards, and Unix/Linux system primitives.</li>
-        <li>Designing clean modular abstractions for real-world software components.</li>
+        <li><b>Agentic AI:</b> Building autonomous agent workflows, tool-augmented reasoning, and intelligent automation.</li>
+        <li><b>Computer Vision &amp; Edge AI:</b> Real-time object detection and edge surveillance deployments utilizing <b>YOLOv8</b>.</li>
+        <li><b>AI Pipeline Optimization:</b> Model inference tuning for edge compute constraints and low-latency processing.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4><img src="https://api.iconify.design/octicon/graph-16.svg?color=%23a855f7" width="18" height="18" /> Algorithms & Problem Solving</h4>
+      <h4><img src="https://api.iconify.design/octicon/terminal-16.svg?color=%23a855f7" width="18" height="18" /> Systems &amp; Algorithmic Core</h4>
       <ul>
-        <li>Active practitioner of <b>Data Structures & Algorithms</b> with emphasis on time and space complexity.</li>
-        <li>Analytical approach to breaking down complex computational problems into optimized logic.</li>
-        <li>Continuous learning in modern paradigms, compiler toolchains, and scalable system design.</li>
+        <li><b>Systems Programming:</b> Developing performant code in <b>C &amp; C++</b> with deep respect for memory layout and pointers.</li>
+        <li><b>Data Structures &amp; Algorithms:</b> Rigorous problem-solving focused on algorithmic efficiency and asymptotic bounds.</li>
+        <li><b>Environment &amp; Tooling:</b> Linux systems, POSIX primitives, Git version control, and modular software engineering.</li>
       </ul>
     </td>
   </tr>
@@ -65,14 +66,14 @@ philosophy:
 
   <p><b>Languages & Core Technologies</b></p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css&perline=6" alt="Languages" />
+    <img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css&perline=6" alt="Languages" />
   </a>
 
   <br /><br />
 
-  <p><b>Development Environment & Tooling</b></p>
+  <p><b>AI, Frameworks & Tooling</b></p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,bash,powershell&perline=6" alt="Tools" />
+    <img src="https://skillicons.dev/icons?i=pytorch,opencv,git,github,vscode,linux,bash&perline=7" alt="Tools" />
   </a>
 
 </div>
@@ -80,15 +81,15 @@ philosophy:
 <br />
 
 <details>
-  <summary><b><img src="https://api.iconify.design/octicon/cpu-16.svg?color=%2338bdf8" width="16" height="16" /> Detailed Competency Breakdown</b></summary>
+  <summary><b><img src="https://api.iconify.design/octicon/stack-16.svg?color=%2338bdf8" width="16" height="16" /> Detailed Competency Breakdown</b></summary>
   <br />
 
   | Domain | Focus & Tooling |
   | :--- | :--- |
-  | **Core Languages** | C (C99/C11), C++ (Modern C++17/20), Python, JavaScript |
-  | **Systems & Concepts** | Memory Management, Pointers & References, File I/O, DSA, OOP |
-  | **Platforms & Environments** | Linux / Unix, Windows, Bash / Shell Scripting |
-  | **Version Control & Dev Tools** | Git, GitHub, VS Code, GCC / Clang / GDB |
+  | **AI & Computer Vision** | Agentic AI, YOLOv8, OpenCV, PyTorch, Edge Surveillance Pipelines |
+  | **Systems & Languages** | C (C99/C11), C++ (Modern C++), Python, JavaScript |
+  | **Core Fundamentals** | Data Structures & Algorithms, Memory Management, Linux System Primitives |
+  | **Environments & Tools** | Linux, Windows, Git, GitHub, VS Code, Bash |
 
 </details>
 
@@ -136,5 +137,5 @@ philosophy:
 <br />
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&theme=tokyonight&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <img src="assets/footer.svg" width="100%" alt="Footer Divider" />
 </div>

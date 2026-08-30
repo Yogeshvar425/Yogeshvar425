@@ -1,93 +1,80 @@
-<svg fill="none" viewBox="0 0 850 220" width="850" height="220" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 850 240" width="850" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16"/>
-      <stop offset="60%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e293b"/>
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="100%" stop-color="#141b2d"/>
     </linearGradient>
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="60%" stop-color="#e2e8f0"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
     </linearGradient>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#334155" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.5"/>
-    </linearGradient>
-    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85"/>
-    </linearGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.25"/>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.6" fill="#334155" fill-opacity="0.4"/>
     </pattern>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="10" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
   </defs>
 
   <style>
-    .title {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
-      font-weight: 800;
-      font-size: 38px;
-      fill: url(#titleGrad);
-      letter-spacing: 2px;
-    }
-    .subtitle {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
-      font-weight: 600;
-      font-size: 16px;
-      fill: #38bdf8;
-      letter-spacing: 1px;
-    }
-    .tag-text {
-      font-family: 'Fira Code', 'Courier New', Courier, monospace;
-      font-weight: 600;
-      font-size: 11px;
-      fill: #38bdf8;
-    }
-    .location {
-      font-family: 'Segoe UI', sans-serif;
-      font-size: 12.5px;
-      fill: #94a3b8;
-    }
+    .boot-label { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #0ea5e9; font-weight: 700; letter-spacing: 2px; }
+    .boot-line { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #64748b; }
+    .boot-val { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #94a3b8; }
+    .name { font-family: 'Segoe UI', -apple-system, sans-serif; font-weight: 800; font-size: 42px; fill: #f1f5f9; letter-spacing: 1px; }
+    .role { font-family: 'Courier New', monospace; font-size: 13px; fill: #38bdf8; font-weight: 600; letter-spacing: 1px; }
+    .status-dot { fill: #22c55e; }
+    .status-text { font-family: 'Courier New', monospace; font-size: 11px; fill: #94a3b8; }
+    .sys-header { font-family: 'Courier New', monospace; font-size: 10px; fill: #475569; font-weight: 700; letter-spacing: 2px; }
+    .sys-name { font-family: 'Courier New', monospace; font-size: 11px; fill: #e2e8f0; font-weight: 600; }
+    .sys-status { font-family: 'Courier New', monospace; font-size: 10px; font-weight: 700; }
+    .shipped { fill: #22c55e; }
+    .active { fill: #f59e0b; }
   </style>
 
-  <!-- Minimalist Dark Card Background -->
-  <rect x="2" y="2" width="846" height="216" rx="14" fill="url(#bgGrad)"/>
-  <rect x="2" y="2" width="846" height="216" rx="14" fill="url(#grid)"/>
-  <rect x="2" y="2" width="846" height="216" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1.2"/>
+  <!-- Background -->
+  <rect width="850" height="240" rx="12" fill="url(#bgGrad)"/>
+  <rect width="850" height="240" rx="12" fill="url(#dots)"/>
+  <rect x="0" y="0" width="850" height="240" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
 
-  <!-- Subtle Ambient Glow -->
-  <circle cx="90" cy="50" r="50" fill="#38bdf8" fill-opacity="0.06" filter="url(#glow)"/>
-  <circle cx="760" cy="170" r="60" fill="#38bdf8" fill-opacity="0.06" filter="url(#glow)"/>
+  <!-- Accent Line (Left) -->
+  <rect x="24" y="20" width="3" height="200" rx="1.5" fill="url(#accentLine)"/>
+
+  <!-- Boot Sequence -->
+  <text x="40" y="38" class="boot-label">PROFILE_SYSTEM / INIT</text>
+  <text x="40" y="56" class="boot-line">&gt; identity: <tspan class="boot-val">yogeshvar425</tspan></text>
+  <text x="40" y="72" class="boot-line">&gt; loading: <tspan class="boot-val">software · intelligence · edge-systems</tspan></text>
+  <text x="40" y="88" class="boot-line">&gt; status: <tspan class="boot-val">building &amp; shipping</tspan></text>
 
   <!-- Name -->
-  <text x="425" y="68" text-anchor="middle" class="title">V S YOGESHVAR</text>
+  <text x="40" y="138" class="name">YOGESHVAR</text>
 
-  <!-- Subtitle (Role) -->
-  <text x="425" y="102" text-anchor="middle" class="subtitle">Software × AI/ML Engineer</text>
-  <text x="425" y="125" text-anchor="middle" class="location">B.Tech CSE @ Dayananda Sagar University ('27) • Bengaluru, Karnataka, India</text>
+  <!-- Role -->
+  <text x="40" y="162" class="role">SOFTWARE × AI/ML ENGINEER</text>
 
-  <!-- Highlight Badges -->
-  <g transform="translate(60, 154)">
-    <!-- Tag 1 -->
-    <rect x="0" y="0" width="165" height="32" rx="16" fill="url(#chipGrad)" stroke="#334155" stroke-width="1"/>
-    <text x="82" y="20" text-anchor="middle" class="tag-text"># NVIDIA Jetson &amp; TRT</text>
+  <!-- Status Badges -->
+  <circle cx="46" cy="192" r="4" class="status-dot"/>
+  <text x="58" y="196" class="status-text">CSE · DSU '27</text>
+  <circle cx="176" cy="192" r="4" fill="#f59e0b"/>
+  <text x="188" y="196" class="status-text">OPEN TO INTERNSHIPS</text>
 
-    <!-- Tag 2 -->
-    <rect x="180" y="0" width="175" height="32" rx="16" fill="url(#chipGrad)" stroke="#334155" stroke-width="1"/>
-    <text x="267" y="20" text-anchor="middle" class="tag-text"># Real-Time Vision (YOLO)</text>
+  <!-- Featured Systems Panel (Right Side) -->
+  <rect x="540" y="24" width="280" height="192" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <text x="560" y="48" class="sys-header">FEATURED SYSTEMS</text>
 
-    <!-- Tag 3 -->
-    <rect x="370" y="0" width="175" height="32" rx="16" fill="url(#chipGrad)" stroke="#334155" stroke-width="1"/>
-    <text x="457" y="20" text-anchor="middle" class="tag-text"># FastAPI &amp; Systems</text>
+  <!-- Divider line -->
+  <line x1="560" y1="56" x2="800" y2="56" stroke="#1e293b" stroke-width="1"/>
 
-    <!-- Tag 4 -->
-    <rect x="560" y="0" width="170" height="32" rx="16" fill="url(#chipGrad)" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="1"/>
-    <text x="645" y="20" text-anchor="middle" class="tag-text">⚡ Open to Internships</text>
-  </g>
+  <!-- System 01 -->
+  <text x="560" y="80" class="sys-name">01  SENTINEL SURVEILLANCE</text>
+  <text x="780" y="80" text-anchor="end" class="sys-status shipped">SHIPPED</text>
+  <text x="576" y="95" class="boot-line" style="font-size:10px">edge-cv · jetson · tensorrt · 28fps</text>
+
+  <!-- System 02 -->
+  <text x="560" y="125" class="sys-name">02  TRUE SENTIMENT</text>
+  <text x="780" y="125" text-anchor="end" class="sys-status shipped">SHIPPED</text>
+  <text x="576" y="140" class="boot-line" style="font-size:10px">nlp · fastapi · sklearn · &lt;50ms</text>
+
+  <!-- Separator -->
+  <line x1="560" y1="158" x2="800" y2="158" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Footer note -->
+  <text x="560" y="180" class="boot-line" style="font-size:10px">bengaluru · dayananda sagar university</text>
+  <text x="560" y="198" class="boot-line" style="font-size:10px">&gt; build_mode: <tspan class="boot-val">production-first</tspan></text>
 </svg>

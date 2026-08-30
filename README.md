@@ -1,18 +1,21 @@
 <div align="center">
 
-  <img src="assets/header.svg" width="100%" alt="V S Yogeshvar - Generalist CS Student & Builder" />
+  <img src="assets/header.svg" width="100%" alt="V S Yogeshvar - Software x AI/ML Engineer" />
 
   <br /><br />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Generalist+CS+Student+%26+Production-Grade+Builder;Edge+AI+%26+Real-Time+Computer+Vision+(YOLOv8);Low-Level+Systems+Engineering+%26+Optimization;Scalable+Microservices+%26+APIs+(FastAPI%2FFlask);Open+to+2026%2F2027+Software+%26+AI+Internships" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Software+%C3%97+AI%2FML+Engineer;Real-Time+Edge+AI+on+NVIDIA+Jetson;TensorRT+Optimization+%26+Computer+Vision+(YOLOv8);High-Throughput+FastAPI+REST+Microservices;Open+to+2026%2F2027+SWE+%26+AI%2FML+Internships" alt="Typing SVG" />
   </a>
 
   <br /><br />
 
   <p align="center">
-    <a href="https://github.com/Yogeshvar425?tab=followers">
-      <img src="https://img.shields.io/github/followers/Yogeshvar425?label=Followers&style=flat-square&logo=github&logoColor=white&color=1e293b" alt="GitHub Followers" />
+    <a href="https://www.linkedin.com/in/yogeshvarvs" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-yogeshvarvs-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:vsyogeshvar425@gmail.com">
+      <img src="https://img.shields.io/badge/Email-vsyogeshvar425%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="mailto:vsyogeshvar425@gmail.com">
       <img src="https://img.shields.io/badge/Status-Open_to_Internships_(2026%2F2027)-0ea5e9?style=flat-square&logo=target" alt="Status" />
@@ -26,48 +29,67 @@
 
 ---
 
-### <img src="https://api.iconify.design/octicon/person-16.svg?color=%2338bdf8" width="20" height="20" /> Engineering Profile & Ethos
+### <img src="https://api.iconify.design/octicon/person-16.svg?color=%2338bdf8" width="20" height="20" /> Engineering Profile & Focus
 
 ```yaml
 identity:
   name: V S Yogeshvar
-  archetype: Generalist CS Student & Builder
-  education: B.Tech in Computer Science & Engineering (2023–2027)
-  institution: Dayananda Sagar University, Bengaluru (CGPA: 7.84 / 10)
+  role: Software × AI/ML Engineer
+  education: B.Tech in Computer Science and Engineering (Expected May 2027)
+  institution: Dayananda Sagar University (DSU), Bengaluru, Karnataka
+  cgpa: 7.84 / 10
   location: Bengaluru, Karnataka, India
+  contact: vsyogeshvar425@gmail.com
 
-current_status:
-  focus: Building standalone, production-grade AI and systems projects
-  opportunity: Open to 2026 / 2027 Software Engineering & Edge AI / ML Internships
-  mindset: "End-to-end execution: from hardware memory constraints to scalable software deployment."
+availability:
+  seeking: 2026 / 2027 Software Engineering, Edge AI & Machine Learning Internships
+  focus: High-performance real-time AI systems, inference optimization, and modular software engineering
 ```
 
-Computer Science undergraduate with a multidisciplinary engineering approach across **Edge AI, Systems Programming, and Backend Microservices**. Experienced in building and optimizing real-time computer vision systems on **embedded NVIDIA Jetson hardware**, deploying inference acceleration with **TensorRT**, and constructing robust RESTful service architectures.
+Computer Science undergraduate with hands-on experience building and optimizing **real-time AI systems on embedded NVIDIA Jetson hardware**. Strong foundation in Python, Java, and data structures, with practical experience in **TensorRT optimization, computer vision, and modular software development**. A fast, self-directed learner who consistently builds and ships production-grade systems.
 
 ---
 
-### <img src="https://api.iconify.design/octicon/repo-16.svg?color=%2338bdf8" width="20" height="20" /> Featured Production Projects
+### <img src="https://api.iconify.design/octicon/repo-16.svg?color=%2338bdf8" width="20" height="20" /> Featured Engineering Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><img src="https://api.iconify.design/octicon/cpu-16.svg?color=%2338bdf8" width="18" height="18" /> Sentinel Surveillance — Edge AI & CV System</h4>
-      <p><i>Aug 2025 – Apr 2026 • NVIDIA Jetson, TensorRT, YOLOv8n, ByteTrack, FaceNet512, llama.cpp, Flask</i></p>
+      <h4>
+        <img src="https://api.iconify.design/octicon/cpu-16.svg?color=%2338bdf8" width="18" height="18" />
+        Sentinel Surveillance — Edge AI &amp; CV System
+      </h4>
+      <p>
+        <a href="https://github.com/Yogeshvar425/Sentinel-Surveillance" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" />
+        </a>
+        <img src="https://img.shields.io/badge/Aug_2025_--_Apr_2026-1e293b?style=flat-square" alt="Timeline" />
+      </p>
+      <p><i>Python • Computer Vision • NVIDIA Jetson • TensorRT • YOLOv8n • ByteTrack • FaceNet512 • Flask • llama.cpp</i></p>
       <ul>
-        <li><b>Edge Pipeline:</b> Engineered an end-to-end real-time vision system on <b>NVIDIA Jetson</b> embedded hardware operating at <b>28 FPS</b> with multi-object tracking and facial recognition.</li>
-        <li><b>TensorRT Acceleration:</b> Quantized deep learning models to <b>FP16</b> via TensorRT, reducing latency by <b>~65% (120 ms &rarr; 35–45 ms)</b> for responsive edge deployment.</li>
-        <li><b>Local Vision-Language Model:</b> Integrated an on-device VLM via <code>llama.cpp</code> to generate structured JSON scene descriptions with zero cloud dependencies.</li>
-        <li><b>Live Telemetry:</b> Developed a modular Flask web dashboard for real-time video streaming, hardware metrics, and event alerts.</li>
+        <li><b>Edge Hardware Deployment:</b> Engineered a modular real-time computer vision pipeline on <b>NVIDIA Jetson embedded hardware</b>, integrating YOLOv8n detection, ByteTrack multi-object tracking, and FaceNet512 recognition at <b>28 FPS</b>.</li>
+        <li><b>TensorRT Optimization:</b> Quantized deep-learning inference to <b>FP16 with TensorRT</b>, reducing inference latency by <b>~65% (120 ms &rarr; 35–45 ms)</b> for real-time edge execution within hardware limits.</li>
+        <li><b>Zero-Cloud Local VLM:</b> Integrated an on-device Vision-Language Model via <code>llama.cpp</code> to produce structured JSON scene descriptions with <b>zero cloud API dependency</b>.</li>
+        <li><b>Telemetry Dashboard:</b> Built a modular Flask web console for live event monitoring, camera telemetry, and system-health visualization.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4><img src="https://api.iconify.design/octicon/server-16.svg?color=%2338bdf8" width="18" height="18" /> TrueSentiment — NLP Pipeline & REST API</h4>
-      <p><i>Aug 2024 – Mar 2025 • Python, Scikit-learn, TF-IDF, SVM, FastAPI, REST API</i></p>
+      <h4>
+        <img src="https://api.iconify.design/octicon/server-16.svg?color=%2338bdf8" width="18" height="18" />
+        TrueSentiment — NLP Pipeline &amp; REST API
+      </h4>
+      <p>
+        <a href="https://github.com/Yogeshvar425/TrueSentiment" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" />
+        </a>
+        <img src="https://img.shields.io/badge/Aug_2024_--_Mar_2025-1e293b?style=flat-square" alt="Timeline" />
+      </p>
+      <p><i>Python • NLP • Scikit-learn • TF-IDF • Logistic Regression • SVM • FastAPI • REST API</i></p>
       <ul>
-        <li><b>Automated Ingestion:</b> Built an end-to-end NLP data pipeline collecting YouTube comments with automated spam filtering and text preprocessing.</li>
-        <li><b>Model Evaluation:</b> Trained Logistic Regression and SVM classifiers using TF-IDF bigram features, validated via 5-fold stratified cross-validation (<b>~76% accuracy</b> on noisy datasets).</li>
-        <li><b>High-Throughput API:</b> Deployed as an asynchronous <b>FastAPI REST microservice</b> with sub-<b>50 ms</b> inference turnaround.</li>
-        <li><b>Live Dashboard:</b> Implemented a lightweight HTML5 Canvas interface for real-time request queue throughput visualization.</li>
+        <li><b>End-to-End NLP Ingestion:</b> Designed an automated YouTube Data API data ingestion pipeline with custom spam/bot filtration, text normalization, and self-trained sentiment classifiers.</li>
+        <li><b>Model Training &amp; Validation:</b> Trained Logistic Regression and SVM classifiers with TF-IDF bigram features; validated via 5-fold stratified cross-validation achieving <b>~76% accuracy</b> on imbalanced real-world text.</li>
+        <li><b>High-Speed Microservice:</b> Deployed as a scalable <b>FastAPI REST service</b> delivering <b>&lt;50 ms</b> inference response latency.</li>
+        <li><b>Live Canvas Telemetry:</b> Developed a lightweight JavaScript/HTML5 Canvas dashboard for live pipeline throughput and server-health metrics.</li>
       </ul>
     </td>
   </tr>
@@ -75,7 +97,7 @@ Computer Science undergraduate with a multidisciplinary engineering approach acr
 
 ---
 
-### <img src="https://api.iconify.design/octicon/tools-16.svg?color=%2338bdf8" width="20" height="20" /> Technical Capabilities
+### <img src="https://api.iconify.design/octicon/tools-16.svg?color=%2338bdf8" width="20" height="20" /> Technical Skills &amp; Toolchain
 
 <div align="center">
 
@@ -86,9 +108,9 @@ Computer Science undergraduate with a multidisciplinary engineering approach acr
 
   <br /><br />
 
-  <p><b>Frameworks, Edge Compute & Tooling</b></p>
+  <p><b>AI, Vision, Acceleration &amp; Systems</b></p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,opencv,fastapi,flask,linux,bash,git,github,vscode&perline=9" alt="Tools" />
+    <img src="https://skillicons.dev/icons?i=pytorch,opencv,fastapi,flask,linux,bash,git,github,vscode&perline=9" alt="Tools and Frameworks" />
   </a>
 
 </div>
@@ -96,31 +118,30 @@ Computer Science undergraduate with a multidisciplinary engineering approach acr
 <br />
 
 <details>
-  <summary><b><img src="https://api.iconify.design/octicon/stack-16.svg?color=%2338bdf8" width="16" height="16" /> Competency Breakdown Matrix</b></summary>
+  <summary><b><img src="https://api.iconify.design/octicon/stack-16.svg?color=%2338bdf8" width="16" height="16" /> Detailed Technical Competency Matrix</b></summary>
   <br />
 
-  | Discipline | Technologies, Frameworks & Core Concepts |
+  | Domain | Technologies &amp; Capabilities |
   | :--- | :--- |
-  | **Edge AI & Embedded Systems** | NVIDIA Jetson, TensorRT (FP16/INT8), YOLOv8n, ByteTrack, FaceNet512, llama.cpp (Local LLM/VLM) |
-  | **Machine Learning & NLP** | PyTorch, Scikit-learn, OpenCV, TF-IDF, SVM, Logistic Regression, Stratified Cross-Validation |
-  | **Backend & Microservices** | FastAPI, Flask, RESTful APIs, Asynchronous Request Handling, JSON Schemas |
-  | **Languages & Systems** | Python, Java, C, C++, SQL (DBMS), JavaScript, Linux / POSIX Shell Scripting |
-  | **Computer Science Fundamentals** | Data Structures & Algorithms, Operating Systems, Computer Networks, OOP |
-  | **Development Workflow** | Git Version Control, GitHub, VS Code, Modular Software Architecture |
+  | **Edge AI &amp; Embedded Systems** | NVIDIA Jetson (Nano / Orin), TensorRT (FP16), YOLOv8n, ByteTrack, FaceNet512, llama.cpp (Local LLM/VLM) |
+  | **Computer Vision &amp; Deep Learning** | OpenCV, PyTorch, Real-Time Detection, Object Tracking, Facial Recognition, Model Quantization |
+  | **Machine Learning &amp; NLP** | Scikit-learn, TF-IDF Bigrams, Logistic Regression, SVM, Stratified Cross-Validation |
+  | **Backend &amp; API Engineering** | FastAPI, Flask, REST APIs, Asynchronous I/O, Data Ingestion Pipelines, JSON Schemas |
+  | **Languages &amp; Core Systems** | Python, Java, C, C++, SQL (DBMS), JavaScript, Linux / POSIX Shell Scripting |
+  | **Coursework &amp; Fundamentals** | Data Structures &amp; Algorithms, OOP (Java), DBMS, Operating Systems, Computer Networks, Discrete Mathematics |
 
 </details>
 
 ---
 
-### <img src="https://api.iconify.design/octicon/verified-16.svg?color=%2338bdf8" width="20" height="20" /> Certifications & Academics
+### <img src="https://api.iconify.design/octicon/verified-16.svg?color=%2338bdf8" width="20" height="20" /> Verified Certifications
 
-- <img src="https://api.iconify.design/octicon/check-circle-16.svg?color=%2338bdf8" width="16" height="16" /> **Bachelor of Technology in CSE** — *Dayananda Sagar University, Bengaluru* (Expected May 2027 • CGPA: 7.84 / 10)
-- <img src="https://api.iconify.design/octicon/check-circle-16.svg?color=%2338bdf8" width="16" height="16" /> **Intro to Transformer-Based NLP** — *NVIDIA*
-- <img src="https://api.iconify.design/octicon/check-circle-16.svg?color=%2338bdf8" width="16" height="16" /> **Networking Fundamentals** — *Infosys Springboard*
+- <img src="https://api.iconify.design/octicon/shield-check-16.svg?color=%2310b981" width="16" height="16" /> **Intro to Transformer-Based NLP** — *NVIDIA*
+- <img src="https://api.iconify.design/octicon/shield-check-16.svg?color=%2310b981" width="16" height="16" /> **Networking Fundamentals** — *Infosys Springboard*
 
 ---
 
-### <img src="https://api.iconify.design/octicon/graph-16.svg?color=%2338bdf8" width="20" height="20" /> GitHub Metrics
+### <img src="https://api.iconify.design/octicon/graph-16.svg?color=%2338bdf8" width="20" height="20" /> GitHub Analytics &amp; Activity
 
 <div align="center">
   <table border="0">
@@ -139,17 +160,17 @@ Computer Science undergraduate with a multidisciplinary engineering approach acr
 
 ---
 
-### <img src="https://api.iconify.design/octicon/link-16.svg?color=%2338bdf8" width="20" height="20" /> Connect & Contact
+### <img src="https://api.iconify.design/octicon/link-16.svg?color=%2338bdf8" width="20" height="20" /> Connect With Me
 
 <div align="center">
-  <a href="mailto:vsyogeshvar425@gmail.com">
-    <img src="https://img.shields.io/badge/Email-vsyogeshvar425%40gmail.com-0f172a?style=flat-square&logo=gmail&logoColor=38bdf8" alt="Email" />
+  <a href="https://www.linkedin.com/in/yogeshvarvs" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-yogeshvarvs-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://linkedin.com/in/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Yogeshvar_V_S-0f172a?style=flat-square&logo=linkedin&logoColor=38bdf8" alt="LinkedIn" />
+  <a href="mailto:vsyogeshvar425@gmail.com">
+    <img src="https://img.shields.io/badge/Email-vsyogeshvar425%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/Yogeshvar425" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Yogeshvar425-0f172a?style=flat-square&logo=github&logoColor=38bdf8" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-Yogeshvar425-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Portfolio-In_Development-0f172a?style=flat-square&logo=googlechrome&logoColor=38bdf8" alt="Portfolio" />

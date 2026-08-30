@@ -6,13 +6,13 @@
       <stop offset="100%" stop-color="#1e293b"/>
     </linearGradient>
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="60%" stop-color="#e2e8f0"/>
       <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#334155" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#334155" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.5"/>
     </linearGradient>
     <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -38,10 +38,10 @@
     }
     .subtitle {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
-      font-weight: 500;
-      font-size: 15px;
-      fill: #94a3b8;
-      letter-spacing: 0.5px;
+      font-weight: 600;
+      font-size: 16px;
+      fill: #38bdf8;
+      letter-spacing: 1px;
     }
     .tag-text {
       font-family: 'Fira Code', 'Courier New', Courier, monospace;
@@ -51,8 +51,8 @@
     }
     .location {
       font-family: 'Segoe UI', sans-serif;
-      font-size: 12px;
-      fill: #64748b;
+      font-size: 12.5px;
+      fill: #94a3b8;
     }
   </style>
 
@@ -62,32 +62,32 @@
   <rect x="2" y="2" width="846" height="216" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1.2"/>
 
   <!-- Subtle Ambient Glow -->
-  <circle cx="100" cy="50" r="50" fill="#38bdf8" fill-opacity="0.06" filter="url(#glow)"/>
-  <circle cx="750" cy="170" r="60" fill="#38bdf8" fill-opacity="0.06" filter="url(#glow)"/>
+  <circle cx="90" cy="50" r="50" fill="#38bdf8" fill-opacity="0.06" filter="url(#glow)"/>
+  <circle cx="760" cy="170" r="60" fill="#38bdf8" fill-opacity="0.06" filter="url(#glow)"/>
 
   <!-- Name -->
-  <text x="425" y="70" text-anchor="middle" class="title">V S YOGESHVAR</text>
+  <text x="425" y="68" text-anchor="middle" class="title">V S YOGESHVAR</text>
 
-  <!-- Tagline -->
-  <text x="425" y="106" text-anchor="middle" class="subtitle">Generalist CS Student &amp; Builder • AI • Systems • Software Engineering</text>
-  <text x="425" y="128" text-anchor="middle" class="location">B.Tech CSE @ Dayananda Sagar University ('27) • Bengaluru, India</text>
+  <!-- Subtitle (Role) -->
+  <text x="425" y="102" text-anchor="middle" class="subtitle">Software × AI/ML Engineer</text>
+  <text x="425" y="125" text-anchor="middle" class="location">B.Tech CSE @ Dayananda Sagar University ('27) • Bengaluru, Karnataka, India</text>
 
   <!-- Highlight Badges -->
-  <g transform="translate(65, 154)">
+  <g transform="translate(60, 154)">
     <!-- Tag 1 -->
     <rect x="0" y="0" width="165" height="32" rx="16" fill="url(#chipGrad)" stroke="#334155" stroke-width="1"/>
-    <text x="82" y="20" text-anchor="middle" class="tag-text"># Edge AI &amp; Vision</text>
+    <text x="82" y="20" text-anchor="middle" class="tag-text"># NVIDIA Jetson &amp; TRT</text>
 
     <!-- Tag 2 -->
-    <rect x="180" y="0" width="170" height="32" rx="16" fill="url(#chipGrad)" stroke="#334155" stroke-width="1"/>
-    <text x="265" y="20" text-anchor="middle" class="tag-text"># Systems &amp; Low-Level</text>
+    <rect x="180" y="0" width="175" height="32" rx="16" fill="url(#chipGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="267" y="20" text-anchor="middle" class="tag-text"># Real-Time Vision (YOLO)</text>
 
     <!-- Tag 3 -->
-    <rect x="365" y="0" width="165" height="32" rx="16" fill="url(#chipGrad)" stroke="#334155" stroke-width="1"/>
-    <text x="447" y="20" text-anchor="middle" class="tag-text"># Full-Stack &amp; APIs</text>
+    <rect x="370" y="0" width="175" height="32" rx="16" fill="url(#chipGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="457" y="20" text-anchor="middle" class="tag-text"># FastAPI &amp; Systems</text>
 
     <!-- Tag 4 -->
-    <rect x="545" y="0" width="175" height="32" rx="16" fill="url(#chipGrad)" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="1"/>
-    <text x="632" y="20" text-anchor="middle" class="tag-text">⚡ Open to Internships</text>
+    <rect x="560" y="0" width="170" height="32" rx="16" fill="url(#chipGrad)" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="1"/>
+    <text x="645" y="20" text-anchor="middle" class="tag-text">⚡ Open to Internships</text>
   </g>
 </svg>

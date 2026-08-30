@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,21&height=200&section=header&text=V%20S%20Yogeshvar&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Systems%20%26%20Software%20Developer%20%7C%20C%20%2F%20C%2B%2B%20%7C%20DSA%20Enthusiast&descFontSize=18&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&theme=tokyonight&height=220&section=header&text=V%20S%20Yogeshvar&fontSize=48&animation=fadeIn&fontAlignY=38&desc=Systems%20%26%20Software%20Developer%20%E2%80%A2%20C%20%2F%20C%2B%2B%20%E2%80%A2%20DSA%20Enthusiast&descFontSize=19&descAlignY=60" width="100%" alt="Header Banner" />
 
   <br />
 
@@ -23,7 +23,7 @@
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="26" height="26" alt="laptop" /> Engineering Profile & Focus
+### <img src="https://api.iconify.design/octicon/person-16.svg?color=%2338bdf8" width="22" height="22" /> Engineering Profile & Focus
 
 ```yaml
 identity:
@@ -136,5 +136,5 @@ philosophy:
 <br />
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,21&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&theme=tokyonight&height=100&section=footer" width="100%" alt="Footer Banner" />
 </div>

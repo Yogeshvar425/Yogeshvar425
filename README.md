@@ -122,7 +122,7 @@ A fully local autonomous agent combining multimodal perception with agentic orch
 | Edge AI and inference | `NVIDIA Jetson` · `TensorRT (FP16)` · `YOLOv8n` · `ByteTrack` · `FaceNet512` · `llama.cpp` |
 | Machine learning and NLP | `PyTorch` · `Scikit-learn` · `OpenCV` · `TF-IDF` · `SVM` · `Logistic Regression` |
 | Backend and services | `FastAPI` · `Flask` · `REST APIs` · `YouTube Data API` |
-| Languages | `Python` · `Java` · `C` · `C++` · `SQL` · `JavaScript` |
+| Languages | `Python` · `Java` · `SQL` · `JavaScript` |
 | Platforms and tooling | `Linux (Ubuntu)` · `Bash` · `Git` · `GitHub` · `VS Code` |
 
 ---

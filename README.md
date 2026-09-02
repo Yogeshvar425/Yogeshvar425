@@ -18,9 +18,19 @@
 
 ---
 
-I am **Yogeshvar**, a B.Tech Computer Science Engineering student at **Dayananda Sagar University**, graduating in **2027**. I build and ship production-grade systems across edge AI, computer vision, NLP, and backend services — prioritizing **real hardware constraints, measurable benchmarks, and software that works beyond demos**.
+I am **Yogeshvar**, a B.Tech Computer Science Engineering student at **Dayananda Sagar University**, graduating in **2027**. I build and ship production-grade systems across edge AI, computer vision, and NLP—focused on local-first inference, real-time processing, and systems engineering.
 
-Currently open to **2026/2027 Software Engineering & AI/ML internships**.
+**Currently open to 2026/2027 Software Engineering & AI/ML internships.**
+
+---
+
+## Quick Stats
+
+- **3 shipped projects** spanning edge AI, computer vision, and NLP inference
+- **28 FPS real-time** surveillance pipeline on constrained NVIDIA Jetson hardware
+- **~65% latency reduction** via FP16 quantization and TensorRT optimization
+- **~76% accuracy** on noisy real-world sentiment classification
+- **Zero cloud dependency** — all models run entirely on-device
 
 ---
 
@@ -45,6 +55,15 @@ Currently open to **2026/2027 Software Engineering & AI/ML internships**.
 
 ---
 
+## Why me?
+
+- **Shipping mindset:** All 3 projects are production-deployed and actively monitored—not just notebooks or Kaggle kernels.
+- **Hardware-aware optimization:** Not just model development—deep focus on actual inference constraints (FP16, quantization, latency budgets, memory footprint).
+- **End-to-end architecture:** From automated data collection → preprocessing → training → production inference → monitoring & telemetry.
+- **Local-first philosophy:** Zero cloud dependency, privacy-by-design, and edge-native deployments.
+
+---
+
 ## Projects
 
 ### Sentinel Surveillance — `shipped`
@@ -58,7 +77,7 @@ Currently open to **2026/2027 Software Engineering & AI/ML internships**.
 - Modular real-time vision system on **NVIDIA Jetson** running **YOLOv8n + ByteTrack + FaceNet512** at **28 FPS**
 - Models quantized to **FP16 via TensorRT** — inference latency reduced by **~65%** (120 ms → 35–45 ms)
 - On-device VLM via `llama.cpp` for structured JSON scene intelligence, **zero cloud dependency**
-- Flask live console for video feeds, event telemetry, and hardware health
+- Flask live console for video feeds, event telemetry, and hardware health monitoring
 
 <details>
 <summary>Engineering signals</summary>
@@ -111,6 +130,8 @@ Currently open to **2026/2027 Software Engineering & AI/ML internships**.
 
 A fully local autonomous agent combining multimodal perception with agentic orchestration and function calling. Built for edge-native execution with zero cloud dependency.
 
+**Status:** Active development | **Expected:** Q1 2025
+
 `Python` · `llama.cpp` · `NVIDIA Jetson` · `Agentic workflows` · `Function calling` · `Computer vision` · `Local LLM/VLM`
 
 ---
@@ -130,6 +151,16 @@ A fully local autonomous agent combining multimodal perception with agentic orch
 ## Interests
 
 `Local-first AI` · `Edge inference` · `Computer vision` · `Systems engineering` · `NLP & language models` · `Production software`
+
+---
+
+## Get in touch
+
+- **Email:** [vsyogeshvar425@gmail.com](mailto:vsyogeshvar425@gmail.com)
+- **LinkedIn:** [@yogeshvarvs](https://www.linkedin.com/in/yogeshvarvs)
+- **GitHub:** [@Yogeshvar425](https://github.com/Yogeshvar425)
+
+Open to **2026/2027 internships** in Software Engineering & AI/ML.
 
 ---
 

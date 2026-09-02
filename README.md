@@ -18,7 +18,7 @@
 
 ---
 
-I am **Yogeshvar**, a B.Tech Computer Science Engineering student at **Dayananda Sagar University**, graduating in **2027**. I build and ship production-grade systems across edge AI, computer vision, and NLP—focused on local-first inference, real-time processing, and systems engineering.
+I am **Yogeshvar**, a B.Tech Computer Science Engineering student at **Dayananda Sagar University**, graduating in **2027**. I build and ship production-grade systems across edge AI, computer visi[...]
 
 **Currently open to 2026/2027 Software Engineering & AI/ML internships.**
 
@@ -75,7 +75,7 @@ I am **Yogeshvar**, a B.Tech Computer Science Engineering student at **Dayananda
 **Pipeline:** `RTSP camera → detection + tracking → face recognition → local VLM analysis → dashboard + alerts`
 
 - Modular real-time vision system on **NVIDIA Jetson** running **YOLOv8n + ByteTrack + FaceNet512** at **28 FPS**
-- Models quantized to **FP16 via TensorRT** — inference latency reduced by **~65%** (120 ms → 35–45 ms)
+- Models quantified to **FP16 via TensorRT** — inference latency reduced by **~65%** (120 ms → 35–45 ms)
 - On-device VLM via `llama.cpp` for structured JSON scene intelligence, **zero cloud dependency**
 - Flask live console for video feeds, event telemetry, and hardware health monitoring
 
@@ -124,13 +124,13 @@ I am **Yogeshvar**, a B.Tech Computer Science Engineering student at **Dayananda
 
 ---
 
-### Aria — `active build`
+### Aria — `shelved`
 
-> Local-first agentic AI: voice interaction, vision-language understanding, and autonomous tool-use — running entirely on edge hardware.
+> Local-first agentic AI: voice interaction, vision-language understanding, and autonomous tool-use — intended for edge hardware.
 
-A fully local autonomous agent combining multimodal perception with agentic orchestration and function calling. Built for edge-native execution with zero cloud dependency.
+A local autonomous agent combining multimodal perception with agentic orchestration and function calling. Development is currently shelved.
 
-**Status:** Active development | **Expected:** Q1 2025
+**Status:** Shelved — development paused
 
 `Python` · `llama.cpp` · `NVIDIA Jetson` · `Agentic workflows` · `Function calling` · `Computer vision` · `Local LLM/VLM`
 
